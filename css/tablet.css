@@ -1,0 +1,92 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+    .nav-bar-text {
+        display: none;
+    }
+    #nav-bar a:link, a:visited {
+        padding: 20px 10px 20px 10px;
+        margin-right: 1rem;
+        /* padding-bottom: px; */
+        font-size: 0.8rem;
+    }
+    #nav-bar {
+        margin-top: 1rem; 
+        justify-content: center;
+    }
+    .container {
+        padding: 30px;
+    }
+    .information {
+        gap: 20px;
+    }
+    .section-title {
+        width: 300px;
+    }
+    /* sở thich */
+    /* chưa căn chỉnh được các gird item dài như nhau hoặc khoảng cách các cột sát nhau */
+    .job-info {
+        font-size: 0.8rem;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 30px 10px 30px 10px;
+        grid-gap: 30px;
+    }
+    .icon-interest {
+        width: 35px;
+        height: 35px;
+        padding: 5px;
+    }
+    .job-info h1 {
+        font-size: 1.5rem;
+    }
+    .job-info h3 {
+        font-size: 1.2rem;
+    }
+    /* chứng chỉ giải thưởng */
+    .cer-grid{
+        grid-template-columns: repeat(2, 1fr);
+        padding: 30px 10px 30px 10px;
+        grid-gap: 30px;
+    }
+    .nguyenvana {
+        grid-column: 1/2;
+    }
+    .cer-flex{
+        display: block;
+    }
+    .img-cc {
+        width: 100%;
+    }
+    h4 {
+        padding-top: 20px;
+        font-size: 0.6rem;
+    }
+    /* phần dự án */
+    .project-grid {
+        gap: 10px;
+    }
+    .project-cvcanhan {
+        font-size: 0.7rem;
+    }
+    .project-border {
+        font-size: 0.65rem;
+    }
+    .hientai {
+        margin-right: 0 !important;
+    }
+    .icon-user-1 {
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+    .icon-lamp {
+        margin-left: 0 !important;
+    }
+    .project-content tr td {
+        font-size: 0.8rem;
+    }
+    .project-content tr td:first-child {
+        width: 38%
+    }
+    .project-content td {
+        padding: 3px !important;
+    }
+    /* phần footer  */
+}

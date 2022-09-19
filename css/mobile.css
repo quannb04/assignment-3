@@ -1,0 +1,56 @@
+@media (max-width: 768px) {
+    .nav-bar-text {
+        display: none;
+    }
+    #nav-bar {
+        height: auto;
+        display: block;
+    }
+    #nav-bar a:link, a:visited {
+        display: block;
+        padding: 20px 10px 0px 20px;
+        border-left: none;
+        text-align: left;
+    }
+    .information {
+        display: block;
+        width: 1fr;
+    }
+    .container {
+        padding: 20px;
+    }
+    .job-info {
+        font-size: 0.8rem;
+        grid-template-columns: 1fr;
+        padding: 30px 10px 30px 10px;
+        grid-gap: 30px;
+    }
+    /* phần sử thích */
+    .sothich {
+        margin-left: 20px;
+    }
+    /* phần chứng chỉ giải thưởng */
+    .cer-grid{
+        grid-template-columns: 1fr;
+        padding: 30px 10px 30px 10px;
+        grid-gap: 30px;
+    }
+    .cer-flex {
+        padding-bottom: 20px;
+        border-bottom: 1.5px solid #d6c08d;
+        border-left: none !important;
+        border-top: none !important;
+
+    }
+    /* phần dự án */
+    .project-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    /* phần footer */
+
+    .container a {
+        font-size: 16px !important;
+        padding-right: 10px !important;
+    }
+}
